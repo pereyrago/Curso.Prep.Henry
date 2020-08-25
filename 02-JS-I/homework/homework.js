@@ -1,21 +1,21 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
-//1Crea una variable "string", puede colsntener lo que quieras:
-const nuevaString = "sal";
+// Crea una variable "string", puede contener lo que quieras:
+const nuevaString = "concatenación";
 
-// 2Crea una variable numérica, puede ser cualquier número:
+// Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 9;
 
-// 3Crea una variable booleana:
+// Crea una variable booleana:
 const nuevoBool = false;
 
-// 4Resuelve el siguiente problema matemático:
+// Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - 5 === 5;
 
-//5 Resuelve el siguiente problema matemático:
+// Resuelve el siguiente problema matemático:
 const nuevaMultiplicacion = 10 * 4 === 40 ;
 
-// 6Resuelve el siguiente problema matemático:
+// Resuelve el siguiente problema matemático:
 const nuevoModulo = 21 % 5 === 1;
 
 
@@ -26,161 +26,143 @@ const nuevoModulo = 21 % 5 === 1;
 // No cambies los nombres de las funciones.
 
 function devolverString(str) {
-  //7 "Return" la string provista: str
-  // Tu código: 
+  // "Return" la string provista: str
+  // Tu código:
   return str;
 }
 
 function suma(x, y) {
-  // 8"x" e "y" son números
+  // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  var kkita = x + y;
-  return kkita;
+  return x + y;
 }
 
 function resta(x, y) {
-  // 9Resta "x" de "y" y devuelve el valor
+  // Resta "x" de "y" y devuelve el valor
   // Tu código:
-  var Result = x - y;
-  return Result;
+  return x - y;
 }
 
 function multiplica(x, y) {
-  // 10Multiplica "x" por "y" y devuelve el valor
+  // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  var Result = x * y;
-  return Result;
+  return x * y;
 }
 
 function divide(x, y) {
-  // 11Divide "x" entre "y" y devuelve el valor
+  // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  var Result = x / y;
-  return Result;
+  return x / y;
 }
 
 function sonIguales(x, y) {
-  // 12Devuelve "true" si "x" e "y" son iguales
+  // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  var oso = x == y;
-
-  return oso; 
+  return x === y;
 }
 
 function tienenMismaLongitud(str1, str2) {
-  // 13Devuelve "true" si las dos strings tienen la misma longitud
+  // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  var long = str1.length == str2.length;
-  return long;
+  return str1.length === str2.length;
 }
 
 function menosQueNoventa(num) {
-  // 14Devuelve "true" si el argumento de la función "num" es menor que noventa
+  // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-  var menor = num < 90;
-  return menor;
+  return num < 90;
 }
 
 function mayorQueCincuenta(num) {
-  // 15 Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
+  // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  var mayor = num > 50;
-  return mayor;
+  return num > 50;
 }
 
 function obtenerResto(x, y) {
-  // 16 Obten el resto de la división de "x" entre "y"
+  // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  var result = x % y;
-  return result;
+  return x % y;
 }
 
 function esPar(num) {
-  // 17Devuelve "true" si "num" es par
+  // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  var par = num % 2 == 0;
-  return par;
+  if (num % 2===0) return true;
+  else return false;
 }
 
 function esImpar(num) {
-  // 18Devuelve "true" si "num" es impar
+  // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  var impar = num % 2 != 0 ;
-  return impar;
+  if (num % 2 === 1) return true;
+  else return false;
 }
 
 function elevarAlCuadrado(num) {
-  // 19Devuelve el valor de "num" elevado al cuadrado
+  // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  var cuadradito = num * num;
-  return cuadradito;
+  return num * num;
 }
 
 function elevarAlCubo(num) {
-  //20 Devuelve el valor de "num" elevado al cubo
+  // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  var cubito = num * num * num;
-  return cubito; 
+  return num * num * num;
 }
 
 function elevar(num, exponent) {
-  // 21Devuelve el valor de "num" elevado al exponente dado en "exponent"
+  // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  var result = Math.pow (num,exponent);
-  return result;
+  return Math.pow (num, exponent);
 }
 
 function redondearNumero(num) {
-  // 22Redondea "num" y devuélvelo
+  // Redondea "num" y devuélvelo
   // Tu código:
-  var result = Math.round(num);
-  return result;
+  return Math.round (num);
 }
 
 function redondearHaciaArriba(num) {
-  // 23Redondea "num" hacia arriba y devuélvelo
+  // Redondea "num" hacia arriba y devuélvelo
   // Tu código:
-  var result = Math.ceil (num);
-  return result;
+  return Math.ceil (num);
 }
 
 function agregarSimboloExclamacion(str) {
-  // 24Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
+  // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
-  // Tu código: 
-  var cambiaso = str + "!"
-  return cambiaso
+  // Tu código:
+  var saludo = str + "!";
+  return saludo;
 }
 
 function combinarNombres(nombre, apellido) {
-  //25 Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
+  // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  var id= nombre + " " + apellido;
-  return id;
+  return nombre + " " + apellido;
 }
 
 function obtenerSaludo(nombre) {
-  // 26Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
+  // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  var saludo = "Hola" + " " + nombre + "!";
-  return saludo; 
+  return "Hola " + nombre + "!";
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
-  // 27Retornar el area de un cuadrado teniendo su altura y ancho
+  // Retornar el area de un cuadrado teniendo su altura y ancho
   // Tu código:
-  var area= alto * ancho;
-  return area;
+  return alto * ancho;
 }
 
 
